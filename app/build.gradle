@@ -59,6 +59,9 @@ dependencies {
     //firebase
     implementation platform('com.google.firebase:firebase-bom:31.0.3')
     implementation 'com.google.firebase:firebase-firestore-ktx'
+
+    //datastore preferences
+    implementation 'androidx.datastore:datastore-preferences:1.0.0'
 }
 
 kapt {
